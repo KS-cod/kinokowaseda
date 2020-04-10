@@ -1,0 +1,555 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul{
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+}
+
+/* ヘッダー */
+header {
+  background: rgb(31, 196, 48);
+  height: 65px;
+  width: 100%;
+  display: flex;
+}
+
+header {
+  display: flex;
+}
+
+.header-left {
+  margin-left: 15px;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.header-right > a {
+  width: 150px;
+  line-height: 65px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-right >a:link {
+  color: white;
+}
+
+.header-right >a:visited {
+  color: white;
+}
+
+.header-right >a:hover {
+  background: gray;
+}
+
+/* メイン */
+main {
+  width: 100%;
+}
+
+.container {
+  margin:80px 40px 0;
+}
+
+.top-wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.slider img {
+  height: 500px;
+}
+
+.news h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+#news-title {
+  display: flex;
+}
+
+.icon {
+  height: 35px;
+}
+
+.news a {
+  margin-left: auto;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.news li {
+  font-size: 18px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+.news time {
+  margin-right: 20px;
+}
+
+.calendar {
+  display: flex;
+}
+
+.calendar h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.calendar-wrapper .container p {
+  margin-left: 15px;
+  font-size: 30px;
+  line-height: 35px;
+} 
+
+.profile-wrapper {
+  margin-bottom: 100px;
+}
+
+#profile-title {
+  display: flex;
+}
+
+.profile h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.profile > .mascot > img {
+  width: 500px;
+  height: 500px;
+  margin-right: 25px;
+}
+
+.mascot {
+  display: flex;
+}
+
+.mascot-profile {
+  margin-top: 40px;
+}
+
+.mascot-profile h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.mascot-profile p {
+  font-size: 19px;
+  line-height: 50px;
+}
+
+
+/* フッター */
+footer {
+  background: rgb(31, 196, 48);
+  height: 100px;
+  display: flex;
+}
+
+.footer-left {
+  width: 50%;
+  font-family: 'Times New Roman', serif;
+  color: #e5e4e2;
+}
+
+.footer-left h1 {
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.credit {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.footer-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  margin: auto 20px;
+  border-radius: 15px;
+}
+
+.fab {
+  margin-top: 10px;
+}
+
+.twitter {
+  background: #55acee;
+}
+
+.fa-twitter {
+  font-size: 30px;
+}
+
+.instagram {
+  background: #CF2E92;
+}
+
+.fa-instagram {
+  font-size: 30px;
+}
+
+.line {
+  background: #00B900;
+  margin-right: 80px;
+}
+
+.fa-line {
+  font-size: 30px;
+}
+
+
+/* お知らせ一覧ページ */
+.top-wrapper2 .container {
+  margin-top: 30px;
+}
+
+.top-wrapper2 .container h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.top-wrapper2 .container ul li {
+  margin-bottom: 50px;
+  border: 1px solid #dcdcdc;
+  padding: 25px 10px;
+  border-radius: 15px;
+}
+
+.top-wrapper2 .container ul li time , .top-wrapper2 .container ul li h1 {
+  font-size: 25px;
+}
+
+.top-wrapper2 .container ul li time {
+  float: left;
+  margin-right: 20px;
+}
+
+.top-wrapper2 .container ul li p {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+
+
+/* history */
+.top-wrapper3 .container{
+  margin-top: 30px;
+}
+
+.top-wrapper3 .container h1{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+#history {
+  display: flex;
+}
+
+#chapters {
+  width: 35%;
+  margin-left: 15px;
+}
+
+.chapter {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 25px;
+  border-bottom: 2px solid black;
+}
+
+.chapter:hover {
+  cursor: pointer;
+  background: #dcdcdc;
+}
+
+.chapter:active {
+  color: red;
+  border-color: red;
+}
+
+.show {
+  display: none;
+}
+
+.act {
+  display: block;
+}
+
+.show img {
+  width: auto;
+  height: 350px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+#shows {
+  width: 70%;
+}
+
+.show time, .show p {
+  font-size: 20px;
+}
+
+.show p {
+  margin-top: 15px;
+}
+
+/* スマホ用ページ */
+@media screen and (max-width: 499px) {
+
+.header-right {
+  display: none;
+}
+
+.slider img {
+  height: 200px;
+}
+
+#news-title h1,#calender-title h1,#profile-title h1{
+  font-size: 20px;
+}
+
+#news-title a, .calendar a{
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.icon {
+  height: 20px;
+}
+
+.news li {
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.calendar h1 {
+  margin-bottom: 20px;
+}
+
+.calendar-wrapper > .container > p {
+  font-size: 15px;
+  line-height: 15px; 
+  margin-left: 0px;
+}
+
+.mascot {
+  display: block  ;
+}
+
+.profile >.mascot >img{
+  width: 100%;
+  height: 350px;
+}
+
+.mascot h2 {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mascot p {
+  font-size: 12px;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+}
+
+.footer-left {
+  display: none;
+}
+
+.credit {
+  margin-left: 0;
+}
+
+.footer-right {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn{
+  height: 50px;
+  width: 50px;
+  margin: auto 30px;
+} 
+
+.top-wrapper2 .container {
+  margin: 20px 10px;
+}
+
+.top-wrapper2 .container h1{
+  font-size: 30px;
+}
+
+.top-wrapper2 .container ul li time , .top-wrapper2 .container ul li h1 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.top-wrapper2 .container ul li p {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.top-wrapper3 .container {
+  margin:20px 5px;
+}
+
+.top-wrapper3 .container h1 {
+  font-size: 30px;
+}
+
+#chapters {
+  margin-left: 5px;
+  width: 40%;
+}
+
+.chapter {
+  font-size: 13px;
+}
+
+#shows {
+  width: 60%;
+  margin-left: auto;
+}
+
+.show {
+  margin-top: 20px;
+}
+
+.show img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.show p {
+  margin-top: 15px;
+}
+
+.show time, .show p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+}
